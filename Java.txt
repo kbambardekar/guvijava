@@ -1,0 +1,447 @@
+First Java Program:
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class GUVI
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		System.out.println("Hello World!!");
+	}
+}
+
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		int a=3; int b=4;
+		boolean c=true; 
+		boolean d=false;
+        int r1=a+b;
+        int r2=a-b;
+        int r3=a*b;
+        int r4=b/a;
+        int r5=a%b;
+        int r6= b++;
+        int e=r6;
+        int r7= a&b;
+        int r8=a|b;
+        int r9=a^b;
+        int r10=~a;
+        System.out.println(r1+r2+r3+r4+r5+e+r7+r8+r9+r10);
+         boolean result=c&&d;
+        boolean result1=c||d;
+        boolean result2=!(c&&d);
+        System.out.println("\n result is:" + result + "\n result1 is:" + result1+"\n result2 is:"+ result2);
+	}
+}
+
+
+class PizzaOffer
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        
+        int ch;
+        System.out.println("Enter 1 for Monday");
+        System.out.println("Enter 2 for Tuesday");
+        System.out.println("Enter 3 for wednesday");
+        System.out.println("Enter 4 for Thursday");
+        System.out.println("Enter 5 for Friday");
+        System.out.println("Enter 6 for Saturday");
+        System.out.println("Enter 0 for Sunday");
+        System.out.println("Enter your choice");
+        ch=s.nextInt();
+        switch(ch)
+        {
+         case 0:
+         System.out.println("Free Personal Pizza on purchase of medium Pizza");
+         break;
+         case 1:
+         System.out.println("Rs.101 OFF on a bill of Rs.400 and above");
+         break;
+          case 2:
+         System.out.println("Free Plain Garlic Bread on another medium pizza");
+         break;
+          case 3:
+         System.out.println("Buy 1 Get 1 Free on any medium pizza");
+         break;
+          case 4:
+         System.out.println("Buy any medium pizza and get 50% off on another medium pizza");
+         break;
+          case 5:
+         System.out.println("Tastiest pizza 20% off on bill of Rs.399 or above");
+         break;
+          case 6:
+         System.out.println("Get Together Offer Free Garlic Bread and Dip on a min bill of Rs.350");
+         break;
+         
+         
+        }
+	}
+}
+
+
+class Coupon
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		
+         Scanner s= new Scanner(System.in);
+        
+         int p=s.nextInt();
+         System.out.println("Enter total amount of purchase: "+p);
+         
+        if(p>=20000)
+         {
+        System.out.println("\n Free Trolley");
+        }
+        else if(p>=10000 && p<20000)
+        {
+        System.out.println("\n Free Travel Bag");
+        }
+        else if(p>=5000 && p<10000)
+        {
+        System.out.println("Free BagPack ");
+        }
+        else 
+        {
+        System.out.println("Collect money even for cover we give ");
+        }
+	}
+
+
+class Coupon
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		
+       for(i=1900;i<=2020;i++)
+        {
+         if(i%4==0)
+        {
+        System.out.println(i+" is a leap year");
+        }
+        }
+	}
+}
+
+
+q.1
+import java.util.Scanner;
+
+public class Postive_Negative 
+
+{
+
+    public static void main(String[] args) 
+
+    {
+
+        int n;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter the number you want to check:");
+
+        n = s.nextInt();
+
+        if(n > 0)
+
+        {
+
+            System.out.println("The given number "+n+" is Positive");
+
+        }
+
+        else if(n < 0)
+
+        {
+
+            System.out.println("The given number "+n+" is Negative");
+
+        }
+
+        else
+
+        {
+
+            System.out.println("The given number "+n+" is neither Positive nor Negative ");
+
+        }
+     }
+}
+
+q.2
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class even
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		int n;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter the number you want to check:");
+
+        n = s.nextInt();
+        if(n%2==0)
+        {
+        System.out.println("the given number :"+n+"is an even number.");
+        }
+        else
+        {
+        System.out.println("the given number is odd number.");
+        }
+	}
+}	
+
+q.3
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class even
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        char ch;
+
+        Scanner s = new Scanner(System.in);
+        ch = s.next().charAt(0);
+        System.out.print("Enter the character you want to check:"+ ch);
+
+        
+        switch(ch)
+        {
+            case 'a':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'e':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'i':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'o':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            
+            case 'u':
+            System.out.println("The given character "+ch+" is vowel");
+            break;
+            default:
+            System.out.println("The entered alphabet is a consonant");
+        }
+        
+
+	}
+}
+
+q.4
+ import java.util.*;
+import java.lang.*;
+import java.io.*;
+class alphabet
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+        char ch;
+
+        Scanner s = new Scanner(System.in);
+        ch = s.next().charAt(0);
+        System.out.print("Enter the character you want to check:"+ ch);
+        if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z'))
+        {
+        	System.out.println("\n the character :"+ch+" is an alphabet");
+        }
+        else
+        {
+        System.out.println("Undefined");
+        }
+
+        
+        
+        
+
+	}
+}
+
+q.5
+
+import java.util.Scanner;
+
+class larger1
+
+{
+        
+public static void main(String args[])
+        
+{
+                
+int x1,x2,x3;
+                
+int large;
+                
+Scanner s = new Scanner(System.in);
+                
+System.out.println("Enter value for x1 : ");
+                
+x1=s.nextInt();
+                
+System.out.println("Enter value for x2 : ");
+                
+x2=s.nextInt();
+                
+System.out.println("Enter value for x3 : ");
+                
+x3=s.nextInt();
+                
+large = x1;
+                
+if (x2 > large)
+                        
+large = x2;
+                
+if (x3 > large)
+                        
+large = x3;
+                
+System.out.println("\n\n\tLargest number = " + large);
+        
+}
+
+}
+
+q.6
+
+class leapyear
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goeint 
+		
+       for(i=1900;i<=2020;i++)
+        {
+         if(i%4==0)
+        {
+        System.out.println(i+" is a leap year");
+        }
+        }
+	}
+}
+
+q.7
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class helloworld
+{
+	
+     int i;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+		for(i=0;i>5;i++)	
+		System.out.println("Hello World!!");
+	}
+}
+
+q.8
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class helloworld
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter value for x1 : ");
+                
+        num=s.nextInt();
+        while(i<num)
+	{
+ 	sum=sum+i;
+ 	i++;
+	}
+	}
+}
+
+
+q.9
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class natural
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter number:");
+                
+        num=s.nextInt();
+        for(i=0;i>num;i++)
+	{
+ 	sum=sum+i;
+ 	}
+	System.out.println("The sum of the digits is:"+sum);
+	}
+}
+
+q.10
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class natural
+{
+	
+     int sum=0, i=1;
+     int num;
+     public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner s = new Scanner(System.in);
+                
+         System.out.println("Enter number:");
+                
+        num=s.nextInt();
+        while(num>0)
+	{
+ 	num=num/10;
+	i++;
+	System.out.println("The sum of the digits is:"+i);
+	}
+	}
+}
+
